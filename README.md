@@ -6,8 +6,8 @@
 ```
 i_rewriter iterates through each line of file, evaluating RUBY_EXPRESSION in a block whose arguments are
 
-  index : current line index starting at 0
-  line : the current line
+  - index : current line index starting at 0
+  - line : the current line
 
 Each argument will be replaced in-place, with whatever your RUBY_EXPRESSION evaluates to.
 
